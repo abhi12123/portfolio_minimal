@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Abhinav VP</title>
+</head>
+
+<body>
+    <header>
+        <h1>Abhinav VP</h1>
+        <p style="margin-left: 50px;">I build things for the web</p>
+        <a style="margin-left: 50px;" href="mailto:vp.abhinav@outlook.com">vp.abhinav@outlook.com</a>
+        <form>
+            <div>
+                <input type="checkbox" id="dark" name="dark" value="dark">
+                <label for="dark">Enable Dark mode</label>
+            </div>
+        </form>
+    </header>
+    <hr />
+    <main>
+        <nav>
+            <a href="#about">About</a>
+            |
+            <a href="http://www.abhinavvp.com">Blog</a>
+            |
+            <a href="#projects">Projects</a>
+            |
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="col-1">
+            <article id='about'>
+                <h3>About</h3>
+                <p>Web developer passionate about User Experience
+                    (UX) design and Product Development.
+                </p>
+                <p>
+
+                    <button><a href='https://www.abhinavvp.com' target="_blank">My Blog</a></button>
+                </p>
+                <img src="./images/profile-pic.jpg" alt="an image of me, staring into blankness" /><br />
+            </article>
+            <article id='about'>
+                <h3>Stack</h3>
+                <p>
+                <ul>
+                    <li>Front-end</li>
+                    <ul>
+                        <li>Javascript(ES6), ReactJs, W3CSS, Tailwind, Bootstrap</li>
+                    </ul>
+                    <li>Back-end</li>
+                    <ul>
+                        <li>NodeJs, ExpressJs, NestJs, PostgreSQL, Firebase</li>
+                    </ul>
+                    <li>Version Control</li>
+                    <ul>
+                        <li>Git</li>
+                    </ul>
+                </ul>
+                </p>
+            </article>
+        </div>
+        <div class="col-2">
+            <article id='projects'>
+                <h3>Personal Projects </h3>
+                <p>
+                <ul>
+                    <li>
+                        <h4>HushChat</h4>
+                        <p>
+                            Databaseless Web Chat application that runs on websockets.<br />
+                            Anyone can create and/or join a room, and start talking.<br />
+                        </p>
+                        <button>Visit</button>
+                        <button>About</button>
+                    </li>
+                    <hr />
+                    <li>
+                        <h4>CSS Text Formatter</h4>
+                        <p>
+                            Web application that can be used to format a text sample. Displays the preview text and its
+                            CSS, which can be copied with a click, ready to be used wherever you want.
+                        </p>
+                    </li>
+                    <hr />
+                    <li>
+                        <h4>Minesweeper</h4>
+                        <p>
+                            Classic Minesweeper game.
+                            Tools used : ReactJs.
+                        </p>
+                    </li>
+                    <hr />
+                    <li>
+                        <h4>ToDo List Chrome Extension</h4>
+                        <p>
+                            A todo list chrome extension.
+                            Tools used : Vanilla Javascript.
+                        </p>
+                    </li>
+                </ul>
+                </p>
+            </article>
+        </div>
+        <div class="col-3">
+            <article id='contact'>
+                <h3>Contact Me</h3>
+                <p>
+                <ul>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Github</a></li>
+                </ul>
+                </p>
+            </article>
+            <article id='blogs'>
+                <h3>Read my Blogs at</h3>
+                <p>
+                <ul>
+                    <li><a href="#">abhinavvp.com</a></li>
+                    <li><a href="#">Medium</a></li>
+                    <li><a href="#">DevTo</a></li>
+                    <li><a href="#">Hashnode</a></li>
+                </ul>
+                </p>
+            </article>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
