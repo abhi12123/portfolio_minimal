@@ -53,10 +53,14 @@ img {
 }
 
 a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: inherit;
   }
-  
+
+  video{
+      width: 100%;
+
+  }
 
 /* Dark mode */
 @media only screen and (max-width: 600px) {
