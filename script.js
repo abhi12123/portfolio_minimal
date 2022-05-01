@@ -20,3 +20,7 @@ function switchTheme(e) {
 }
 
 toggleSwitch.addEventListener('change', switchTheme, false);
+
+function navigate(link){
+    window.location.href= link
+}
